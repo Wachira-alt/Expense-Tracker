@@ -1,6 +1,6 @@
 import React from 'react';
-import ExpenseTable from '.components/ExpenseTable';
-import './app.css';
+import ExpenseTable from './components/ExpenseTable';
+import './App.css';
 
 function App() {
   const sampleExpenses = [
