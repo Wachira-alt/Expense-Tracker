@@ -18,6 +18,14 @@ This is a simple Expense Tracker application built using **React** and **Vite**.
 - 🔄 Sort expenses by description or category
 - 🗑️ Delete individual expense rows
 
+##  Tech Stack
+
+- ⚛️ React (with Vite)
+- 🎨 CSS for styling
+- 🔧 useState for state management
+- 📁 Component-based structure
+- 🌐 Deployment: Vercel.
+
 
 
 
