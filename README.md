@@ -29,6 +29,18 @@ This is a simple Expense Tracker application built using **React** and **Vite**.
 ## 📁 Project Structure
 
 ![Project-structure](src/Screenshots/project-structure.png)
+## Contributing
+
+We welcome contributions to this project! Here's how you can help:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b your-branch-name`).
+3. Make your changes and commit them (`git commit -m "Description of changes"`).
+4. Push to your fork (`git push origin your-branch-name`).
+5. Open a pull request describing your changes.
+
+Thank you for contributing!
+
 
 
 
