@@ -92,3 +92,26 @@ th {
 tr:last-child td {
   border-bottom: none;
 }
+/* SearchBar Styles */
+.search-bar {
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+  
+  
+}
+
+.search-input {
+  padding: 0.5rem 1rem;
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.search-input:focus {
+  border-color: #0077cc;
+}
