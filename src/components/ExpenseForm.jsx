@@ -10,7 +10,7 @@ const AddExpenseForm = ({onAddExpense}) => {
   const handleSubmit = (e) => {
     e.preventDefault(); //prevent refreshing of page
 
-    if (!name || !description ||!category || !amount ||!date  ) {
+    if (!name || !description  || !amount ||!date  ) {
       alert ('please fill in all the fields.')
       return;
     }
