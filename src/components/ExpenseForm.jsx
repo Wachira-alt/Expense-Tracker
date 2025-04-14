@@ -3,7 +3,7 @@ import React, {useState} from 'react';
 const AddExpenseForm = ({onAddExpense}) => {
   const [name, setName] = useState('');
   const [description, setDescription] = useState('');
-  const[category, setCategory] = useState('');
+  const[category, setCategory] = useState('food');
   const [amount, setAmount] = useState('');
   const [date, setDate] = useState('');
 
