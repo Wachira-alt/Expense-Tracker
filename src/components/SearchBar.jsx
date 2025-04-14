@@ -8,13 +8,7 @@ const SearchBar = ({searchTerm, setSearchTerm}) => {
        placeholder='Search expenses...'
        value={searchTerm}
        onChange={(e) => setSearchTerm(e.target.value)}
-       style={{
-          padding: '0.5rem',
-          width: '100%',
-          maxWidth: '300px',
-          border: '1px solid #ccc',
-          borderRadius: '4px',
-       }}
+     
        />
     </div>
   )
