@@ -11,21 +11,21 @@ function App() {
     //   description: 'Groceries',
     //   amount: 1200,
     //   category: 'Food',
-    //   Date: 6/5/2024,
+    //   date: 6/5/2024,
     // },
     // {
     //   name: 'Phone',
     //   description: 'Internet',
     //   amount: 2500,
     //   category: 'Utilities',
-    //   Date:6/5/2024,
+    //   date:6/5/2024,
     // },
     // {
     //   name: 'Netflix',
     //   description: 'Netflix Subscription',
     //   amount: 950,
     //   category: 'Entertainment',
-    //   Date:6/5/2024,
+    //   date:6/5/2024,
     // },
    
   ]);
@@ -35,9 +35,16 @@ function App() {
     setExpenses([newExpense, ...expenses]);
   };
   //filtering
-  const filteredExpenses = expenses.filter((expense) =>
-    expense.description.toLowerCase().includes(searchTerm.toLowerCase())
-  );
+  const filteredExpenses = expenses.filter((expense) => {
+    const term = searchTerm.toLowerCase();
+    return (
+      expense.name.toLowerCase().includes(term) ||
+      expense.description.toLowerCase().includes(term) ||
+      expense.category.toLowerCase().includes(term) ||
+      expense.date.toLowerCase().includes(term)
+    );
+  });
+  
  
  
   return (
