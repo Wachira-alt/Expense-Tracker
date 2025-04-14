@@ -4,8 +4,8 @@ This is a simple Expense Tracker application built using **React** and **Vite**.
 
 ## Screenshots
 
-![App Searching functionality ](./screenshots/screenshot1.png)
-![App UI](./screenshots/screenshot2.png)
+![App Searching functionality ](./Screenshots/screenshot1.png)
+![App UI](./Screenshots/screenshot2.png)
 
 ## Features
 
@@ -21,10 +21,14 @@ This is a simple Expense Tracker application built using **React** and **Vite**.
 ##  Tech Stack
 
 - ⚛️ React (with Vite)
-- 🎨 CSS for styling
-- 🔧 useState for state management
+-  CSS for styling
+-  useState for state management
 - 📁 Component-based structure
 - 🌐 Deployment: Vercel.
+
+## 📁 Project Structure
+
+![Project-structure](./Screenshots/project-structure.png)
 
 
 
