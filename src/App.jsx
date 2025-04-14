@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import ExpenseTable from './components/ExpenseTable';
 import ExpenseForm from './components/ExpenseForm';
+import SearchBar from './components/SearchBar';
 import './App.css';
 
 function App() {
@@ -26,16 +27,27 @@ function App() {
     //   category: 'Entertainment',
     //   Date:6/5/2024,
     // },
+   
   ]);
+  const [searchTerm, setSearchTerm] = useState ('');
+
   const handleAddExpense = (newExpense) => {
-    setExpenses([newExpense, ...expenses]) //adds new expense at the top
-  }
+    setExpenses([newExpense, ...expenses]);
+  };
+  //filtering
+  const filteredExpenses = expenses.filter((expense) =>
+    expense.description.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+ 
+ 
   return (
     <>
       <div className='App'>
         <h1>Expense Tracker</h1>
         <ExpenseForm onAddExpense={handleAddExpense}/>
-        <ExpenseTable expenses = {expenses}/>
+        <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
+<ExpenseTable expenses={filteredExpenses} />
+
       </div>
     </>
   );
