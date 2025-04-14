@@ -4,8 +4,8 @@ This is a simple Expense Tracker application built using **React** and **Vite**.
 
 ## Screenshots
 
-![App Searching functionality ](./Screenshots/screenshot1.png)
-![App UI](./Screenshots/screenshot2.png)
+![App Searching functionality ](src/Screenshots/Screenshot2.png)
+![App UI](src/Screenshots/Screenshot1.png)
 
 ## Features
 
@@ -28,7 +28,7 @@ This is a simple Expense Tracker application built using **React** and **Vite**.
 
 ## 📁 Project Structure
 
-![Project-structure](./Screenshots/project-structure.png)
+![Project-structure](src/Screenshots/project-structure.png)
 
 
 
