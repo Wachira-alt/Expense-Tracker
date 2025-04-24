@@ -21,10 +21,10 @@ This is a simple Expense Tracker application built using **React** and **Vite**.
 ##  Tech Stack
 
 - ⚛️ React (with Vite)
--  CSS for styling
--  useState for state management
+- CSS for styling
+- useState for state management
 - 📁 Component-based structure
-- 🌐 Deployment: Vercel.
+- 🌐 Deployment: [Vercel](https://expense-tracker-weld-beta-84.vercel.app/)
 
 ## 📁 Project Structure
 
